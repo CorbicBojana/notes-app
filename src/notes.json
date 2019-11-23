@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Note 1",
+    "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.",
+    "id": 1,
+    "author": "Bob Ziroll",
+    "status": true,
+    "date": "2018/01/22"
+  },
+  {
+    "title": "Note 2",
+    "content": "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+    "id": 2,
+    "author": "Ashley Brooke",
+    "status": false,
+    "date": "2018/04/29"
+  },
+  {
+    "title": "Note 3",
+    "content": "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "id": 3,
+    "author": "Desi Perkins",
+    "status": true,
+    "date": "2019/04/22"
+  },
+  {
+    "title": "Note 4",
+    "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+    "id": 4,
+    "author": "Teni Panosian",
+    "status": true,
+    "date": "2019/05/12"
+  },
+  {
+    "title": "Note 5",
+    "content": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
+    "id": 5,
+    "author": "Daniel Mountain",
+    "status": true,
+    "date": "2019/11/11"
+  }
+]
