@@ -38,7 +38,9 @@ function Note(props) {
             onChange={handleChange}
           />
         </div>
-        <button className="note-button">+ Note</button>
+        <button type="submit" className="note-button">
+          + Note
+        </button>
       </form>
     </div>
   );

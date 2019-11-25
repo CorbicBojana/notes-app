@@ -12,7 +12,7 @@ import uuid from "uuid";
 function App() {
   const [showNote, setShowNote] = useState(false);
   const [notes, setNotes] = useState(notesJson);
-  const [note, setNote] = useState({});
+  const [note] = useState({});
   const [filterText, setFilterText] = useState("");
   const [id, setId] = useState(uuid());
   const [noteInput, setNoteInput] = useState({
@@ -77,14 +77,15 @@ function App() {
     }
   };
 
-  const sortNote = key => {
-    const dateSort = notes.sort((a, b) => a.date < b.date);
-    setNotes(dateSort);
-    console.log(dateSort);
-  };
-
   const filterNote = e => {
     setFilterText(e.target.value);
+  };
+
+  const sortNote = () => {
+    const dateSort = [...notes].sort((a, b) => {
+      return new Date(b.date) - new Date(a.date);
+    });
+    setNotes(dateSort);
   };
 
   const handleChangeBox = id => {
@@ -113,7 +114,7 @@ function App() {
       ) : (
         <div>
           <Filter filterText={filterText} filterNote={filterNote} />
-          <Sort sortNote={() => sortNote(note.id)} />
+          <Sort sortNote={sortNote} />
           <List
             notes={notes}
             filterText={filterText}

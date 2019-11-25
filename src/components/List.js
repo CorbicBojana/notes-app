@@ -16,9 +16,12 @@ function List(props) {
   });
 
   const filterCards = notes
-    // .filter(note => {
-    // return note.title.toLowerCase().indexOf(filterText.toLowerCase()) >= 0;
-    //})
+    .filter(note => {
+      return (
+        note.noteInput.title.toLowerCase().indexOf(filterText.toLowerCase()) >=
+        0
+      );
+    })
     .map(note => {
       return (
         <FilterCard

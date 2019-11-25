@@ -1,42 +1,52 @@
 [
   {
-    "title": "Note 1",
-    "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.",
     "id": 1,
-    "author": "Bob Ziroll",
+    "noteInput": {
+      "title": "Note 1",
+      "author": "Bob Ziroll",
+      "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour."
+    },
     "status": true,
-    "date": "2018/01/22"
+    "date": "2018/04/22"
   },
   {
-    "title": "Note 2",
-    "content": "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
     "id": 2,
-    "author": "Ashley Brooke",
+    "noteInput": {
+      "title": "Note 2",
+      "author": "Ashley Brooke",
+      "content": "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+    },
     "status": false,
-    "date": "2018/04/29"
+    "date": "2018/10/29"
   },
   {
-    "title": "Note 3",
-    "content": "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
     "id": 3,
-    "author": "Desi Perkins",
+    "noteInput": {
+      "title": "Note 3",
+      "author": "Desi Perkins",
+      "content": "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters."
+    },
     "status": true,
-    "date": "2019/04/22"
+    "date": "2019/11/22"
   },
   {
-    "title": "Note 4",
-    "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
     "id": 4,
-    "author": "Teni Panosian",
-    "status": true,
-    "date": "2019/05/12"
-  },
-  {
-    "title": "Note 5",
-    "content": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
-    "id": 5,
-    "author": "Daniel Mountain",
+    "noteInput": {
+      "title": "Note 4",
+      "author": "Teni Panosian",
+      "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
+    },
     "status": true,
     "date": "2019/11/11"
+  },
+  {
+    "id": 5,
+    "noteInput": {
+      "title": "Note 5",
+      "author": "Daniel Mountain",
+      "content": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."
+    },
+    "status": true,
+    "date": "2019/07/19"
   }
 ]

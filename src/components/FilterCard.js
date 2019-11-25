@@ -5,17 +5,15 @@ function FiterCard(props) {
 
   return (
     <div className="note-card-container">
-      <div className="note-card-title">
-        {note.title || note.noteInput.title}
-      </div>
-      <div className="note-card-content">
-        {note.content || note.noteInput.content}
-      </div>
-      <input type="checkbox" checked={note.status} onChange={handleChangeBox} />
-      <span className="note-card-author">
-        {note.author || note.noteInput.author}
-      </span>
-      <span className="note-card-date">{note.date || note.noteInput.date}</span>
+      <div className="note-card-title">{note.noteInput.title}</div>
+      <div className="note-card-content">{note.noteInput.content}</div>
+      <input
+        type="checkbox"
+        checked={!note.status && true}
+        onChange={handleChangeBox}
+      />
+      <span className="note-card-author">{note.noteInput.author}</span>
+      <span className="note-card-date">{note.date}</span>
     </div>
   );
 }
